@@ -81,10 +81,10 @@ class SeungwookKim:
 | Project | Description | Lang | Started | Last push |
 | :-- | :-- | :-: | :-: | :-: |
 | [**ChefEar_porject_1**](https://github.com/seungwook-kim/ChefEar_porject_1) | 1차 메인 프로젝트 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> | 2026.08.24 | 2026.08.24 |
-| [**ai-music-genre-classification**](https://github.com/seungwook-kim/ai-music-genre-classification) | 음약 장르 분류 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> | 2026.08.06 | 2026.08.06 |
+| [**ai-music-genre-classification**](https://github.com/seungwook-kim/ai-music-genre-classification) | 음악 장르 분류 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> | 2026.08.06 | 2026.08.06 |
 | [**transformer**](https://github.com/seungwook-kim/transformer) | transformer_실습 | <img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter Notebook"> | 2026.08.02 | 2026.08.02 |
 | [**mini_Project_part_1**](https://github.com/seungwook-kim/mini_Project_part_1) | 미니프로젝트_1_분류_MNIST_CNN_배포 / 미니프로젝트_2_회귀_자전거_수요 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> | 2026.07.22 | 2026.07.22 |
-| [**streamlit**](https://github.com/seungwook-kim/streamlit) | — | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> | 2026.07.16 | 2026.07.16 |
+| [**streamlit**](https://github.com/seungwook-kim/streamlit) | Gemini API 기반 Q&A 챗봇 Streamlit 앱 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> | 2026.07.16 | 2026.07.16 |
 <!--PROJECTS:END-->
 
 <sub>공개 저장소를 GitHub Actions가 매일 최신순으로 다시 정렬해요 · <a href="https://github.com/seungwook-kim?tab=repositories">all repositories →</a></sub>
