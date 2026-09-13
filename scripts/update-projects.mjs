@@ -37,7 +37,8 @@ async function fetchRepos() {
   }
 }
 
-const kst = (iso) => new Date(iso).toLocaleDateString('sv-SE', { timeZone: 'Asia/Seoul' });
+// Dotted dates don't wrap inside narrow table cells the way hyphenated ones do.
+const kst = (iso) => new Date(iso).toLocaleDateString('sv-SE', { timeZone: 'Asia/Seoul' }).replaceAll('-', '.');
 const cell = (s) => (s || '').replace(/\|/g, '\\|').replace(/\s+/g, ' ').trim();
 
 function langBadge(lang) {

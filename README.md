@@ -80,30 +80,23 @@ class SeungwookKim:
 <!--PROJECTS:START-->
 | Project | Description | Lang | Started | Last push |
 | :-- | :-- | :-: | :-: | :-: |
-| [**ChefEar_porject_1**](https://github.com/seungwook-kim/ChefEar_porject_1) | 1차 메인 프로젝트 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> | 2026-08-24 | 2026-08-24 |
-| [**ai-music-genre-classification**](https://github.com/seungwook-kim/ai-music-genre-classification) | 음약 장르 분류 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> | 2026-08-06 | 2026-08-06 |
-| [**transformer**](https://github.com/seungwook-kim/transformer) | transformer_실습 | <img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter Notebook"> | 2026-08-02 | 2026-08-02 |
-| [**mini_Project_part_1**](https://github.com/seungwook-kim/mini_Project_part_1) | 미니프로젝트_1_분류_MNIST_CNN_배포 / 미니프로젝트_2_회귀_자전거_수요 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> | 2026-07-22 | 2026-07-22 |
-| [**streamlit**](https://github.com/seungwook-kim/streamlit) | — | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> | 2026-07-16 | 2026-07-16 |
+| [**ChefEar_porject_1**](https://github.com/seungwook-kim/ChefEar_porject_1) | 1차 메인 프로젝트 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> | 2026.08.24 | 2026.08.24 |
+| [**ai-music-genre-classification**](https://github.com/seungwook-kim/ai-music-genre-classification) | 음약 장르 분류 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> | 2026.08.06 | 2026.08.06 |
+| [**transformer**](https://github.com/seungwook-kim/transformer) | transformer_실습 | <img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter Notebook"> | 2026.08.02 | 2026.08.02 |
+| [**mini_Project_part_1**](https://github.com/seungwook-kim/mini_Project_part_1) | 미니프로젝트_1_분류_MNIST_CNN_배포 / 미니프로젝트_2_회귀_자전거_수요 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> | 2026.07.22 | 2026.07.22 |
+| [**streamlit**](https://github.com/seungwook-kim/streamlit) | — | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> | 2026.07.16 | 2026.07.16 |
 <!--PROJECTS:END-->
 
 <sub>공개 저장소를 GitHub Actions가 매일 최신순으로 다시 정렬해요 · <a href="https://github.com/seungwook-kim?tab=repositories">all repositories →</a></sub>
 
 ### <samp>~/journey</samp>
 
-```mermaid
-timeline
-    title Learning Journey
-    section 2026.07
-        Streamlit · LLM API : Gemini API Q&A 챗봇 배포
-        딥러닝 기초 : CNN 이미지 분류 (MNIST) : 회귀 수요 예측 (자전거)
-    section 2026.08
-        Transformer : 감성 분석 · Seq2Seq 번역 : CLIP 멀티모달 검색 · 이미지 캡셔닝
-        오디오 AI : 음악 장르 분류
-        음성 AI : STT · TTS 파인튜닝
-    section Next
-        진행 중 : 다음 메인 프로젝트
-```
+<!-- ✏️ data/journey.json 맨 위에 한 줄 추가하면 Actions가 그림을 다시 그려요 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/journey-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/journey-light.svg">
+  <img alt="Learning journey" src="./assets/journey-light.svg" width="100%">
+</picture>
 
 ### <samp>~/activity</samp>
 

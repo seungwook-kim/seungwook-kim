@@ -1,0 +1,8 @@
+[
+  { "date": "now", "title": "메인 프로젝트", "detail": "AI Human 7기 다음 메인 프로젝트 진행 중", "status": "wip" },
+  { "date": "2026.08", "title": "음성 AI", "detail": "STT · TTS 파인튜닝" },
+  { "date": "2026.08", "title": "오디오 AI", "detail": "음악 장르 분류" },
+  { "date": "2026.08", "title": "Transformer", "detail": "감성 분석 · Seq2Seq 번역 · CLIP 멀티모달 검색 · 이미지 캡셔닝" },
+  { "date": "2026.07", "title": "딥러닝 기초", "detail": "CNN 이미지 분류 · 회귀 수요 예측" },
+  { "date": "2026.07", "title": "Streamlit · LLM API", "detail": "Gemini API Q&A 챗봇 배포" }
+]
