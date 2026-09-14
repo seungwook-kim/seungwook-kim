@@ -1,13 +1,13 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-  <img alt="Seungwook Kim — full-stack developer moving into AI agent development" src="./assets/header-light.svg" width="100%">
+  <img alt="Seungwook Kim — AI agent developer" src="./assets/header-light.svg" width="100%">
 </picture>
 
 <p align="center">
   <a href="mailto:kswook30@gmail.com"><img src="https://img.shields.io/badge/Email-kswook30@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
   <img src="https://img.shields.io/badge/Focus-AI%20Agent-8250df?style=flat-square" alt="Focus: AI Agent">
-  <img src="https://img.shields.io/badge/Full--stack-4y%207m-1a7f37?style=flat-square&logo=openjdk&logoColor=white" alt="Full-stack 4y 7m">
+  <img src="https://img.shields.io/badge/AI%20Human-7%EA%B8%B0-1a7f37?style=flat-square" alt="AI Human 7기">
   <img src="https://komarev.com/ghpvc/?username=seungwook-kim&label=profile%20views&color=0969da&style=flat-square" alt="Profile views">
 </p>
 
@@ -17,26 +17,25 @@
 
 ```python
 class SeungwookKim:
-    role       = "AI Agent Developer"
-    background = "Full-stack Developer · 4y 7m · Java / Spring"
-    now        = "AI Human 7기"
-    focus      = ["ai-agents", "llm", "speech", "vision"]
-    contact    = "kswook30@gmail.com"
+    role    = "AI Agent Developer"
+    now     = "AI Human 7기"
+    focus   = ["ai-agents", "llm", "speech", "vision"]
+    contact = "kswook30@gmail.com"
 ```
 
-KT · LG · CJ · 공공기관 시스템을 <b>4년 7개월간 풀스택 개발자</b>로 구축하고 고도화했어요.
-지금은 그 경험 위에서 <b>AI Agent 개발자</b>로 넘어가는 중이에요. 모델을 학습·평가·배포하고, 그 모델을 실제 서비스 흐름에 붙이는 일에 집중합니다.
+듣고, 판단하고, 행동하는 <b>AI Agent</b>를 만들고 있어요. 모델을 학습·평가·배포하는 것에서 끝내지 않고, 에이전트가 실제 서비스 흐름 안에서 동작하도록 붙이는 일에 집중합니다.
+<sub>그 기반에는 4년여간 Java 백엔드·웹 실무에서 쌓은 API·DB 설계 경험이 있어요.</sub>
 
 ### <samp>~/now</samp>
 
 <!-- ✏️ 수시로 직접 고쳐 쓰는 칸 -->
 - 🤖 **Building** — AI Human 7기 메인 프로젝트 · AI Agent
 - 📚 **Studying** — LLM 에이전트 설계 · MCP · 멀티 에이전트
-- 🎯 **Goal** — 풀스택 경험을 살린 AI Agent 개발자
+- 🎯 **Goal** — 실제 서비스에서 동작하는 AI Agent 만들기
 
 ### <samp>~/stack</samp>
 
-<!-- AI 먼저, 그다음 풀스택 · 도구 순서 (분류 라벨 없이 한 흐름으로) -->
+<!-- AI 중심 배지 → 맨 끝에 Java/Spring만 작게. 분류 라벨 없이 한 흐름으로 -->
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
@@ -48,22 +47,15 @@ KT · LG · CJ · 공공기관 시스템을 <b>4년 7개월간 풀스택 개발�
   <img src="https://img.shields.io/badge/Gradio-F97316?style=for-the-badge&logo=gradio&logoColor=white" alt="Gradio">
   <img src="https://img.shields.io/badge/HF%20Spaces-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Spaces">
   <img src="https://img.shields.io/badge/Supabase%20pgvector-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase pgvector">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch">
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
   <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot">
 </p>
 
-<code>EXAONE 3.5</code> <code>Whisper</code> <code>Qwen3-TTS</code> <code>ko-sroberta</code> <code>CLIP</code> <code>Seq2Seq</code> <code>CNN</code> <code>librosa</code> <code>MyBatis</code> <code>JSP</code> <code>Oracle</code> <code>Highcharts</code>
+<code>EXAONE 3.5</code> <code>Whisper</code> <code>Qwen3-TTS</code> <code>ko-sroberta</code> <code>CLIP</code> <code>Seq2Seq</code> <code>CNN</code> <code>librosa</code> <code>REST API</code> <code>MySQL</code> <code>PostgreSQL</code> <code>Elasticsearch</code>
 
 ### <samp>~/projects</samp> <sub>newest first · auto-updated</sub>
 
@@ -88,13 +80,11 @@ KT · LG · CJ · 공공기관 시스템을 <b>4년 7개월간 풀스택 개발�
   <img alt="Learning journey" src="./assets/journey-light.svg" width="100%">
 </picture>
 
-> [!NOTE]
-> **2020.10 – 2025.04 · SI 풀스택 개발 (㈜테크돔)**<br>
-> 고객사 폐쇄망·보안 규정 때문에 실무 코드는 외부로 반출할 수 없어 공개 저장소가 없어요. 대신 어떤 문제를 어떻게 해결했는지 사례로 정리했습니다.
-
 <details>
-<summary><b>실무 사례 보기</b> <sub>8개 프로젝트 · 최신순</sub></summary>
+<summary><sub>이전 경력 · Java 풀스택 실무 사례 (2020.10 – 2025.04)</sub></summary>
 <br>
+
+<sub>㈜테크돔 SI 개발. 고객사 폐쇄망·보안 규정 때문에 실무 코드는 외부로 반출할 수 없어, 어떤 문제를 어떻게 해결했는지 사례로만 정리했어요.</sub>
 
 **가락시장 리뉴얼** <sub>2025.01 – 2025.04 · 공공 · 풀스택, 시스템 현대화 · DB 설계</sub><br>
 <code>Java 12</code> <code>Oracle</code> <code>Nexacro</code> <code>REST API</code>

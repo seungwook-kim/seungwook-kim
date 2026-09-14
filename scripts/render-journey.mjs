@@ -1,5 +1,6 @@
 // Renders assets/journey-{dark,light}.svg from data/journey.json as a `git log --graph` view.
-// Entries are newest first; add new ones at the top. `"status": "wip"` marks work in progress.
+// Entries are newest first; add new ones at the top.
+// `"status": "wip"` marks work in progress; `"status": "past"` renders a dimmed row behind a dashed lane.
 import { readFileSync, writeFileSync } from 'node:fs';
 import { THEMES, MONO, SANS, esc, windowFrame } from './theme.mjs';
 
@@ -9,26 +10,36 @@ const W = 1000, TOP = 68, ROW = 56, LANE = 48;
 const H = TOP + entries.length * ROW + 8;
 const cy = (i) => TOP + i * ROW + 16;
 
+function lane(t) {
+  return entries.slice(1).map((e, i) => {
+    const dash = e.status === 'past' ? ' stroke-dasharray="4 5"' : '';
+    return `<path d="M${LANE} ${cy(i)}V${cy(i + 1)}" stroke="${t.edge}" stroke-width="2"${dash}/>`;
+  }).join('\n  ');
+}
+
 function svg(t) {
-  const last = entries.length - 1;
   const rows = entries.map((e, i) => {
     const y = cy(i);
     const wip = e.status === 'wip';
+    const past = e.status === 'past';
     const dot = wip
       ? `<circle cx="${LANE}" cy="${y}" r="7" fill="${t.bg}" stroke="${t.blue}" stroke-width="2.5"/>
     <circle cx="${LANE}" cy="${y}" r="7" fill="none" stroke="${t.blue}" stroke-width="2" class="ring"/>`
-      : `<circle cx="${LANE}" cy="${y}" r="7" fill="${t.green}"/>`;
+      : past
+        ? `<circle cx="${LANE}" cy="${y}" r="6" fill="${t.bg}" stroke="${t.muted}" stroke-width="2"/>`
+        : `<circle cx="${LANE}" cy="${y}" r="7" fill="${t.green}"/>`;
     const tag = wip
       ? `
     <rect x="${W - 150}" y="${y - 13}" width="110" height="26" rx="13" fill="none" stroke="${t.blue}"/>
     <text x="${W - 95}" y="${y + 5}" text-anchor="middle" font-family="${MONO}" font-size="13" fill="${t.blue}">in progress</text>`
       : '';
+    const dateColor = wip ? t.blue : past ? t.muted : t.yellow;
     return `
   <g class="row" style="animation-delay:${(0.15 + i * 0.12).toFixed(2)}s">
     ${dot}
-    <text x="78" y="${y + 5}" font-family="${MONO}" font-size="15" fill="${wip ? t.blue : t.yellow}">${esc(e.date)}</text>
-    <text x="178" y="${y + 6}" font-family="${SANS}" font-size="17" font-weight="700" fill="${t.text}">${esc(e.title)}</text>
-    <text x="400" y="${y + 6}" font-family="${SANS}" font-size="15" fill="${t.muted}">${esc(e.detail)}</text>${tag}
+    <text x="78" y="${y + 5}" font-family="${MONO}" font-size="15" fill="${dateColor}">${esc(e.date)}</text>
+    <text x="178" y="${y + 6}" font-family="${SANS}" font-size="${past ? 15 : 17}" font-weight="${past ? 600 : 700}" fill="${past ? t.muted : t.text}">${esc(e.title)}</text>
+    <text x="400" y="${y + 6}" font-family="${SANS}" font-size="${past ? 14 : 15}" fill="${t.muted}">${esc(e.detail)}</text>${tag}
   </g>`;
   }).join('');
 
@@ -45,7 +56,7 @@ function svg(t) {
       .ring { animation: none; opacity: 0; }
     }
   </style>${windowFrame(t, W, H, '~/profile — git log --graph --oneline')}
-  <path d="M${LANE} ${cy(0)}V${cy(last)}" stroke="${t.edge}" stroke-width="2"/>
+  ${lane(t)}
 ${rows}
 </svg>
 `;

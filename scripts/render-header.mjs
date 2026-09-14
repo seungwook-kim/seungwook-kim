@@ -11,9 +11,9 @@ const SESSION = [
   { cmd: 'whoami', y: 92, at: 0.35 },
   { out: 'name', y: 140, at: 1.1 },
   { cmd: 'cat about.txt', y: 190, at: 1.5 },
-  { out: 'Full-stack dev (Java/Spring, 4y+) → AI agent developer.', y: 220, at: 2.35 },
+  { out: 'AI agent developer — agents that listen, reason & act.', y: 220, at: 2.35 },
   { cmd: 'ls ./skills', y: 264, at: 2.75 },
-  { dirs: ['ai-agents/', 'llm/', 'speech/', 'vision/', 'java-spring/', 'web/'], y: 294, at: 3.5 },
+  { dirs: ['ai-agents/', 'llm/', 'speech/', 'vision/', 'deploy/'], y: 294, at: 3.5 },
 ];
 const CURSOR = { y: 326, at: 3.95 };
 
@@ -74,7 +74,7 @@ function network(t) {
 function svg(t) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="title desc">
   <title id="title">${esc(NAME)}</title>
-  <desc id="desc">Terminal-style header: full-stack developer (Java/Spring) moving into AI agent development.</desc>
+  <desc id="desc">Terminal-style header: AI agent developer working across LLMs, speech, vision, and deployment.</desc>
   <style>
     .fade { opacity: 0; animation: fade .35s ease-out forwards; }
     .pulse { fill-opacity: .12; animation: pulse ${CYCLE}s ease-in-out infinite; }

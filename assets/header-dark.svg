@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc">
   <title id="title">Seungwook Kim</title>
-  <desc id="desc">Terminal-style header: full-stack developer (Java/Spring) moving into AI agent development.</desc>
+  <desc id="desc">Terminal-style header: AI agent developer working across LLMs, speech, vision, and deployment.</desc>
   <style>
     .fade { opacity: 0; animation: fade .35s ease-out forwards; }
     .pulse { fill-opacity: .12; animation: pulse 3.6s ease-in-out infinite; }
@@ -44,14 +44,14 @@
   <text x="62" y="190" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="18" fill="#e6edf3">cat about.txt</text>
   <rect x="60" y="170" width="149" height="28" fill="#0d1117" class="cover"
     style="--w:149px;animation:type 0.78s steps(13) 1.5s forwards"/>
-  <g class="fade" style="animation-delay:2.35s"><text x="40" y="220" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#8b949e">Full-stack dev (Java/Spring, 4y+) → AI agent developer.</text></g>
+  <g class="fade" style="animation-delay:2.35s"><text x="40" y="220" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#8b949e">AI agent developer — agents that listen, reason &amp; act.</text></g>
   <g class="fade" style="animation-delay:2.65s">
     <text x="40" y="264" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="18" font-weight="700" fill="#7ee787">$</text>
   </g>
   <text x="62" y="264" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="18" fill="#e6edf3">ls ./skills</text>
   <rect x="60" y="244" width="127" height="28" fill="#0d1117" class="cover"
     style="--w:127px;animation:type 0.66s steps(11) 2.75s forwards"/>
-  <g class="fade" style="animation-delay:3.5s"><text x="40" y="294" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#79c0ff"><tspan>ai-agents/</tspan><tspan dx="18">llm/</tspan><tspan dx="18">speech/</tspan><tspan dx="18">vision/</tspan><tspan dx="18">java-spring/</tspan><tspan dx="18">web/</tspan></text></g>
+  <g class="fade" style="animation-delay:3.5s"><text x="40" y="294" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#79c0ff"><tspan>ai-agents/</tspan><tspan dx="18">llm/</tspan><tspan dx="18">speech/</tspan><tspan dx="18">vision/</tspan><tspan dx="18">deploy/</tspan></text></g>
 
   <g class="fade" style="animation-delay:3.95s">
     <text x="40" y="326" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="18" font-weight="700" fill="#7ee787">$</text>

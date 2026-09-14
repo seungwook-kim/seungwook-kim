@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="692" viewBox="0 0 1000 692" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="468" viewBox="0 0 1000 468" role="img" aria-labelledby="title desc">
   <title id="title">Learning journey</title>
-  <desc id="desc">now AI Agent: LLM 에이전트 설계 · MCP · 멀티 에이전트; 2026.08 음성 AI: STT · TTS 파인튜닝 · LLM 의도 분류 · 벡터 검색; 2026.08 오디오 AI: 음악 장르 분류; 2026.08 Transformer: 감성 분석 · Seq2Seq 번역 · CLIP 검색 · 이미지 캡셔닝; 2026.07 딥러닝 기초: CNN 이미지 분류 · 회귀 수요 예측; 2026.07 AI Human 7기: Streamlit · Gemini API 챗봇으로 AI 전환 시작; 2025.01 가락시장 리뉴얼: Java 7 → 12 현대화 · 신규 DB 스키마 설계; 2024.01 KT 마케팅 · 인증: Spring Boot 내장 WAS 전환 · 권한 관리 · 통계 쿼리 튜닝; 2022.05 KT 미디어인증: Elasticsearch 검색 · Highcharts 대시보드 · 암복호화 모듈; 2021.06 LG 차량관제: 실시간 GPS 관제 · 지도 API 마이그레이션 전담; 2020.10 KT 보이스봇: 음성인식 응답 REST API · 풀스택 개발 시작</desc>
+  <desc id="desc">now AI Agent: LLM 에이전트 설계 · MCP · 멀티 에이전트; 2026.08 음성 AI: STT · TTS 파인튜닝 · LLM 의도 분류 · 벡터 검색; 2026.08 오디오 AI: 음악 장르 분류; 2026.08 Transformer: 감성 분석 · Seq2Seq 번역 · CLIP 검색 · 이미지 캡셔닝; 2026.07 딥러닝 기초: CNN 이미지 분류 · 회귀 수요 예측; 2026.07 AI Human 7기: Streamlit · Gemini API 챗봇으로 AI 전환 시작; 2020.10 Java 풀스택 실무: KT · LG · CJ · 공공 SI 프로젝트 · 4년 7개월</desc>
   <style>
     .row { opacity: 0; animation: rise .45s ease-out forwards; }
     .ring { transform-box: fill-box; transform-origin: center; animation: ring 2s ease-out infinite; }
@@ -12,19 +12,24 @@
     }
   </style>
   <defs>
-    <clipPath id="card"><rect x="1" y="1" width="998" height="690" rx="14"/></clipPath>
+    <clipPath id="card"><rect x="1" y="1" width="998" height="466" rx="14"/></clipPath>
   </defs>
   <g clip-path="url(#card)">
-    <rect width="1000" height="692" fill="#ffffff"/>
+    <rect width="1000" height="468" fill="#ffffff"/>
     <rect width="1000" height="44" fill="#f6f8fa"/>
     <path d="M0 44.5H1000" stroke="#d0d7de"/>
   </g>
-  <rect x="1" y="1" width="998" height="690" rx="14" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+  <rect x="1" y="1" width="998" height="466" rx="14" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
   <circle cx="26" cy="22" r="6.5" fill="#ff5f57"/>
   <circle cx="48" cy="22" r="6.5" fill="#febc2e"/>
   <circle cx="70" cy="22" r="6.5" fill="#28c840"/>
   <text x="500" y="27" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#59636e">~/profile — git log --graph --oneline</text>
-  <path d="M48 84V644" stroke="#d0d7de" stroke-width="2"/>
+  <path d="M48 84V140" stroke="#d0d7de" stroke-width="2"/>
+  <path d="M48 140V196" stroke="#d0d7de" stroke-width="2"/>
+  <path d="M48 196V252" stroke="#d0d7de" stroke-width="2"/>
+  <path d="M48 252V308" stroke="#d0d7de" stroke-width="2"/>
+  <path d="M48 308V364" stroke="#d0d7de" stroke-width="2"/>
+  <path d="M48 364V420" stroke="#d0d7de" stroke-width="2" stroke-dasharray="4 5"/>
 
   <g class="row" style="animation-delay:0.15s">
     <circle cx="48" cy="84" r="7" fill="#ffffff" stroke="#0969da" stroke-width="2.5"/>
@@ -66,33 +71,9 @@
     <text x="400" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#59636e">Streamlit · Gemini API 챗봇으로 AI 전환 시작</text>
   </g>
   <g class="row" style="animation-delay:0.87s">
-    <circle cx="48" cy="420" r="7" fill="#1a7f37"/>
-    <text x="78" y="425" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#9a6700">2025.01</text>
-    <text x="178" y="426" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">가락시장 리뉴얼</text>
-    <text x="400" y="426" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#59636e">Java 7 → 12 현대화 · 신규 DB 스키마 설계</text>
-  </g>
-  <g class="row" style="animation-delay:0.99s">
-    <circle cx="48" cy="476" r="7" fill="#1a7f37"/>
-    <text x="78" y="481" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#9a6700">2024.01</text>
-    <text x="178" y="482" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">KT 마케팅 · 인증</text>
-    <text x="400" y="482" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#59636e">Spring Boot 내장 WAS 전환 · 권한 관리 · 통계 쿼리 튜닝</text>
-  </g>
-  <g class="row" style="animation-delay:1.11s">
-    <circle cx="48" cy="532" r="7" fill="#1a7f37"/>
-    <text x="78" y="537" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#9a6700">2022.05</text>
-    <text x="178" y="538" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">KT 미디어인증</text>
-    <text x="400" y="538" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#59636e">Elasticsearch 검색 · Highcharts 대시보드 · 암복호화 모듈</text>
-  </g>
-  <g class="row" style="animation-delay:1.23s">
-    <circle cx="48" cy="588" r="7" fill="#1a7f37"/>
-    <text x="78" y="593" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#9a6700">2021.06</text>
-    <text x="178" y="594" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">LG 차량관제</text>
-    <text x="400" y="594" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#59636e">실시간 GPS 관제 · 지도 API 마이그레이션 전담</text>
-  </g>
-  <g class="row" style="animation-delay:1.35s">
-    <circle cx="48" cy="644" r="7" fill="#1a7f37"/>
-    <text x="78" y="649" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#9a6700">2020.10</text>
-    <text x="178" y="650" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2328">KT 보이스봇</text>
-    <text x="400" y="650" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#59636e">음성인식 응답 REST API · 풀스택 개발 시작</text>
+    <circle cx="48" cy="420" r="6" fill="#ffffff" stroke="#59636e" stroke-width="2"/>
+    <text x="78" y="425" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#59636e">2020.10</text>
+    <text x="178" y="426" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#59636e">Java 풀스택 실무</text>
+    <text x="400" y="426" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="14" fill="#59636e">KT · LG · CJ · 공공 SI 프로젝트 · 4년 7개월</text>
   </g>
 </svg>
