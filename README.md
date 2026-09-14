@@ -171,6 +171,14 @@ class SeungwookKim:
 
 <code>EXAONE 3.5</code> <code>Whisper</code> <code>faster-whisper</code> <code>Qwen3-TTS</code> <code>silero-vad</code> <code>sentence-transformers</code> <code>ko-sroberta</code> <code>bitsandbytes</code> <code>CLIP</code> <code>Seq2Seq</code> <code>CNN</code> <code>librosa</code> <code>KoNLPy</code>
 
+### <samp>~/activity</samp>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seungwook-kim/seungwook-kim/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/seungwook-kim/seungwook-kim/output/snake-light.svg">
+  <img alt="Contribution graph snake animation" src="https://raw.githubusercontent.com/seungwook-kim/seungwook-kim/output/snake-light.svg" width="100%">
+</picture>
+
 <details>
 <summary><samp>~/bookmarks</samp> — 자주 여는 문서</summary>
 <br>
