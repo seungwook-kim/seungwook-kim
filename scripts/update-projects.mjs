@@ -7,19 +7,6 @@ const README = new URL('../README.md', import.meta.url);
 const START = '<!--PROJECTS:START-->';
 const END = '<!--PROJECTS:END-->';
 
-// [badge color, simple-icons slug]
-const LANGS = {
-  Python: ['3776AB', 'python'],
-  'Jupyter Notebook': ['F37626', 'jupyter'],
-  JavaScript: ['F7DF1E', 'javascript'],
-  TypeScript: ['3178C6', 'typescript'],
-  HTML: ['E34F26', 'html5'],
-  Shell: ['4EAA25', 'gnubash'],
-  Go: ['00ADD8', 'go'],
-  Rust: ['000000', 'rust'],
-  'C++': ['00599C', 'cplusplus'],
-};
-
 const headers = {
   Accept: 'application/vnd.github+json',
   'User-Agent': `${OWNER}-profile-readme`,
@@ -41,20 +28,12 @@ async function fetchRepos() {
 const kst = (iso) => new Date(iso).toLocaleDateString('sv-SE', { timeZone: 'Asia/Seoul' }).replaceAll('-', '.');
 const cell = (s) => (s || '').replace(/\|/g, '\\|').replace(/\s+/g, ' ').trim();
 
-function langBadge(lang) {
-  if (!lang) return '—';
-  const [color, logo] = LANGS[lang] ?? ['6e7781', ''];
-  const label = encodeURIComponent(lang.replace(/-/g, '--'));
-  const logoParam = logo ? `&logo=${logo}&logoColor=white` : '';
-  return `<img src="https://img.shields.io/badge/${label}-${color}?style=flat-square${logoParam}" alt="${lang}">`;
-}
-
 function table(repos) {
   const rows = repos.map((r) =>
-    `| [**${r.name}**](${r.html_url}) | ${cell(r.description) || '—'} | ${langBadge(r.language)} | ${kst(r.created_at)} | ${kst(r.pushed_at)} |`);
+    `| [**${r.name}**](${r.html_url}) | ${cell(r.description) || '—'} | ${kst(r.created_at)} |`);
   return [
-    '| Project | Description | Lang | Started | Last push |',
-    '| :-- | :-- | :-: | :-: | :-: |',
+    '| Project | Description | Started |',
+    '| :-- | :-- | :-: |',
     ...rows,
   ].join('\n');
 }
