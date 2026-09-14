@@ -36,7 +36,7 @@ class SeungwookKim:
 
 ### <samp>~/stack</samp>
 
-<!-- AI 중심 배지 → 맨 끝에 Java/Spring만 작게. 분류 라벨 없이 한 흐름으로 -->
+<!-- 분류 라벨 없이 한 흐름: AI는 큰 배지로 먼저, Java·웹·DB 실무 스킬은 작은 배지로 뒤에 -->
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
@@ -44,19 +44,48 @@ class SeungwookKim:
   <img src="https://img.shields.io/badge/PEFT%20%2F%20QLoRA-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white" alt="PEFT / QLoRA">
   <img src="https://img.shields.io/badge/Gemini%20API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini API">
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit">
   <img src="https://img.shields.io/badge/Gradio-F97316?style=for-the-badge&logo=gradio&logoColor=white" alt="Gradio">
   <img src="https://img.shields.io/badge/HF%20Spaces-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Spaces">
   <img src="https://img.shields.io/badge/Supabase%20pgvector-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase pgvector">
+  <img src="https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white" alt="WebRTC">
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot">
 </p>
 
-<code>EXAONE 3.5</code> <code>Whisper</code> <code>Qwen3-TTS</code> <code>ko-sroberta</code> <code>CLIP</code> <code>Seq2Seq</code> <code>CNN</code> <code>librosa</code> <code>REST API</code> <code>MySQL</code> <code>PostgreSQL</code> <code>Elasticsearch</code>
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot">
+  <img src="https://img.shields.io/badge/Spring%20Framework-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Framework">
+  <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white" alt="JPA">
+  <img src="https://img.shields.io/badge/MyBatis-9B2335?style=flat-square" alt="MyBatis">
+  <img src="https://img.shields.io/badge/REST%20API-009688?style=flat-square" alt="REST API">
+  <img src="https://img.shields.io/badge/JSP-007396?style=flat-square" alt="JSP">
+  <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white" alt="Thymeleaf">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white" alt="jQuery">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white" alt="CSS">
+  <img src="https://img.shields.io/badge/Nexacro-1A75BB?style=flat-square" alt="Nexacro">
+  <img src="https://img.shields.io/badge/Highcharts-8087E8?style=flat-square" alt="Highcharts">
+  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square" alt="Oracle">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white" alt="MariaDB">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/MS--SQL-CC2927?style=flat-square" alt="MS-SQL">
+  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white" alt="Elasticsearch">
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins">
+  <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white" alt="Gradle">
+  <img src="https://img.shields.io/badge/Gulp-CF4647?style=flat-square&logo=gulp&logoColor=white" alt="Gulp">
+</p>
+
+<code>EXAONE 3.5</code> <code>Whisper</code> <code>faster-whisper</code> <code>Qwen3-TTS</code> <code>silero-vad</code> <code>sentence-transformers</code> <code>ko-sroberta</code> <code>bitsandbytes</code> <code>CLIP</code> <code>Seq2Seq</code> <code>CNN</code> <code>librosa</code> <code>KoNLPy</code>
 
 ### <samp>~/projects</samp> <sub>newest first · auto-updated</sub>
 
