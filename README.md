@@ -38,10 +38,7 @@ class SeungwookKim:
 | Project | Description | Started |
 | :-- | :-- | :-: |
 | [**ChefEar_porject_1**](https://github.com/seungwook-kim/ChefEar_porject_1) | 요리 중 음성으로 레시피를 안내하는 AI 음성 에이전트 · STT/TTS 파인튜닝 · LLM 의도 분류 | 2026.08.24 |
-| [**ai-music-genre-classification**](https://github.com/seungwook-kim/ai-music-genre-classification) | librosa 오디오 특징 + RandomForest로 10개 음악 장르를 분류하는 Streamlit 앱 | 2026.08.06 |
 | [**transformer**](https://github.com/seungwook-kim/transformer) | Transformer 실습 모음 · 감성 분석 · Seq2Seq 번역 · CLIP 멀티모달 검색 · 이미지 캡셔닝 | 2026.08.02 |
-| [**mini_Project_part_1**](https://github.com/seungwook-kim/mini_Project_part_1) | PyTorch 딥러닝 미니프로젝트 · CNN 이미지 분류(MNIST) · 자전거 수요 회귀 · Streamlit 배포 | 2026.07.22 |
-| [**streamlit**](https://github.com/seungwook-kim/streamlit) | Gemini API 기반 Q&A 챗봇 · 답변 톤 선택 · Streamlit 앱 | 2026.07.16 |
 <!--PROJECTS:END-->
 
 <sub>공개 저장소를 GitHub Actions가 매일 최신순으로 다시 정렬해요 · <a href="https://github.com/seungwook-kim?tab=repositories">all repositories →</a></sub>
