@@ -11,7 +11,7 @@
   <img src="https://komarev.com/ghpvc/?username=seungwook-kim&label=profile%20views&color=0969da&style=flat-square" alt="Profile views">
 </p>
 
-<p align="center"><samp>“안 되는 이유보다 '되는 방법'을 먼저 찾자”</samp></p>
+<p align="center"><i>“안 되는 이유보다 <b>'되는 방법'</b>을 먼저 찾자”</i></p>
 
 ### <samp>~/about</samp>
 
