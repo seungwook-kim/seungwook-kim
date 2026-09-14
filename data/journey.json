@@ -1,8 +1,13 @@
 [
-  { "date": "now", "title": "메인 프로젝트", "detail": "AI Human 7기 다음 메인 프로젝트 진행 중", "status": "wip" },
-  { "date": "2026.08", "title": "음성 AI", "detail": "STT · TTS 파인튜닝" },
+  { "date": "now", "title": "AI Agent", "detail": "LLM 에이전트 설계 · MCP · 멀티 에이전트", "status": "wip" },
+  { "date": "2026.08", "title": "음성 AI", "detail": "STT · TTS 파인튜닝 · LLM 의도 분류 · 벡터 검색" },
   { "date": "2026.08", "title": "오디오 AI", "detail": "음악 장르 분류" },
-  { "date": "2026.08", "title": "Transformer", "detail": "감성 분석 · Seq2Seq 번역 · CLIP 멀티모달 검색 · 이미지 캡셔닝" },
+  { "date": "2026.08", "title": "Transformer", "detail": "감성 분석 · Seq2Seq 번역 · CLIP 검색 · 이미지 캡셔닝" },
   { "date": "2026.07", "title": "딥러닝 기초", "detail": "CNN 이미지 분류 · 회귀 수요 예측" },
-  { "date": "2026.07", "title": "Streamlit · LLM API", "detail": "Gemini API Q&A 챗봇 배포" }
+  { "date": "2026.07", "title": "AI Human 7기", "detail": "Streamlit · Gemini API 챗봇으로 AI 전환 시작" },
+  { "date": "2025.01", "title": "가락시장 리뉴얼", "detail": "Java 7 → 12 현대화 · 신규 DB 스키마 설계" },
+  { "date": "2024.01", "title": "KT 마케팅 · 인증", "detail": "Spring Boot 내장 WAS 전환 · 권한 관리 · 통계 쿼리 튜닝" },
+  { "date": "2022.05", "title": "KT 미디어인증", "detail": "Elasticsearch 검색 · Highcharts 대시보드 · 암복호화 모듈" },
+  { "date": "2021.06", "title": "LG 차량관제", "detail": "실시간 GPS 관제 · 지도 API 마이그레이션 전담" },
+  { "date": "2020.10", "title": "KT 보이스봇", "detail": "음성인식 응답 REST API · 풀스택 개발 시작" }
 ]

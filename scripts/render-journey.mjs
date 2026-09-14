@@ -28,7 +28,7 @@ function svg(t) {
     ${dot}
     <text x="78" y="${y + 5}" font-family="${MONO}" font-size="15" fill="${wip ? t.blue : t.yellow}">${esc(e.date)}</text>
     <text x="178" y="${y + 6}" font-family="${SANS}" font-size="17" font-weight="700" fill="${t.text}">${esc(e.title)}</text>
-    <text x="380" y="${y + 6}" font-family="${SANS}" font-size="15" fill="${t.muted}">${esc(e.detail)}</text>${tag}
+    <text x="400" y="${y + 6}" font-family="${SANS}" font-size="15" fill="${t.muted}">${esc(e.detail)}</text>${tag}
   </g>`;
   }).join('');
 
