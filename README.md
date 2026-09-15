@@ -37,7 +37,7 @@ class SeungwookKim:
 <!--PROJECTS:START-->
 | Project | Description | Started |
 | :-- | :-- | :-: |
-| [**ChefEar_porject_1**](https://github.com/seungwook-kim/ChefEar_porject_1) | 요리 중 음성으로 레시피를 안내하는 AI 음성 에이전트 · STT/TTS 파인튜닝 · LLM 의도 분류 | 2026.08.24 |
+| [**ChefEar**](https://github.com/seungwook-kim/ChefEar) <sub>`archived`</sub> | 요리 중 음성으로 레시피를 안내하는 AI 음성 에이전트 · STT/TTS 파인튜닝 · LLM 의도 분류 | 2026.08.24 |
 | [**transformer**](https://github.com/seungwook-kim/transformer) | Transformer 실습 모음 · 감성 분석 · Seq2Seq 번역 · CLIP 멀티모달 검색 · 이미지 캡셔닝 | 2026.08.02 |
 <!--PROJECTS:END-->
 

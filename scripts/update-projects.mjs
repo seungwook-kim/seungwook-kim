@@ -29,8 +29,10 @@ const kst = (iso) => new Date(iso).toLocaleDateString('sv-SE', { timeZone: 'Asia
 const cell = (s) => (s || '').replace(/\|/g, '\\|').replace(/\s+/g, ' ').trim();
 
 function table(repos) {
-  const rows = repos.map((r) =>
-    `| [**${r.name}**](${r.html_url}) | ${cell(r.description) || '—'} | ${kst(r.created_at)} |`);
+  const rows = repos.map((r) => {
+    const archived = r.archived ? ' <sub>`archived`</sub>' : '';
+    return `| [**${r.name}**](${r.html_url})${archived} | ${cell(r.description) || '—'} | ${kst(r.created_at)} |`;
+  });
   return [
     '| Project | Description | Started |',
     '| :-- | :-- | :-: |',
