@@ -28,13 +28,16 @@ async function fetchRepos() {
 const kst = (iso) => new Date(iso).toLocaleDateString('sv-SE', { timeZone: 'Asia/Seoul' }).replaceAll('-', '.');
 const cell = (s) => (s || '').replace(/\|/g, '\\|').replace(/\s+/g, ' ').trim();
 
+// Repo topics double as the per-project stack, so tag repos with what their code actually uses.
+const topics = (r) => (r.topics?.length ? r.topics.map((t) => `\`${t}\``).join(' ') : '—');
+
 function table(repos) {
   const rows = repos.map((r) => {
     const archived = r.archived ? ' <sub>`archived`</sub>' : '';
-    return `| [**${r.name}**](${r.html_url})${archived} | ${cell(r.description) || '—'} | ${kst(r.created_at)} |`;
+    return `| [**${r.name}**](${r.html_url})${archived} | ${cell(r.description) || '—'}<br><sub>${topics(r)}</sub> | ${kst(r.created_at)} |`;
   });
   return [
-    '| Project | Description | Started |',
+    '| Project | Description · Topics | Started |',
     '| :-- | :-- | :-: |',
     ...rows,
   ].join('\n');

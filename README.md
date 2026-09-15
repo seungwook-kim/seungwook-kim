@@ -35,10 +35,10 @@ class SeungwookKim:
 ### <samp>~/projects</samp> <sub>newest first · auto-updated</sub>
 
 <!--PROJECTS:START-->
-| Project | Description | Started |
+| Project | Description · Topics | Started |
 | :-- | :-- | :-: |
-| [**ChefEar**](https://github.com/seungwook-kim/ChefEar) <sub>`archived`</sub> | 요리 중 음성으로 레시피를 안내하는 AI 음성 에이전트 · STT/TTS 파인튜닝 · LLM 의도 분류 | 2026.08.24 |
-| [**transformer**](https://github.com/seungwook-kim/transformer) | Transformer 실습 모음 · 감성 분석 · Seq2Seq 번역 · CLIP 멀티모달 검색 · 이미지 캡셔닝 | 2026.08.02 |
+| [**ChefEar**](https://github.com/seungwook-kim/ChefEar) <sub>`archived`</sub> | 요리 중 음성으로 레시피를 안내하는 AI 음성 에이전트 · STT/TTS 파인튜닝 · LLM 의도 분류<br><sub>`gradio` `huggingface` `korean` `llm` `qlora` `qwen3-tts` `speech-recognition` `streamlit` `supabase` `text-to-speech` `voice-assistant` `webrtc` `whisper`</sub> | 2026.08.24 |
+| [**transformer**](https://github.com/seungwook-kim/transformer) | Transformer 실습 모음 · 감성 분석 · Seq2Seq 번역 · CLIP 멀티모달 검색 · 이미지 캡셔닝<br><sub>`attention` `blip` `clip` `huggingface` `image-captioning` `konlpy` `model-optimization` `multimodal` `nllb` `nlp` `pytorch` `seq2seq` `streamlit` `transformer`</sub> | 2026.08.02 |
 <!--PROJECTS:END-->
 
 <sub>공개 저장소를 GitHub Actions가 매일 최신순으로 다시 정렬해요 · <a href="https://github.com/seungwook-kim?tab=repositories">all repositories →</a></sub>
