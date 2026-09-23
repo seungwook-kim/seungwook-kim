@@ -117,15 +117,25 @@ class SeungwookKim:
 
 ### <samp>~/stack</samp>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-globe-dark.gif">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/stack-globe-light.gif">
-    <img alt="Tech stack globe" src="./assets/stack-globe-light.gif" width="500">
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-globe-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-globe-light.gif">
+  <img align="left" alt="Tech stack globe" src="./assets/stack-globe-light.gif" width="420">
+</picture>
 
-**Fine-tuning** &nbsp; LLM (Kanana-2 1.3B · Qwen3 0.6B) · STT (Whisper large-v3-turbo, QLoRA) · TTS (Qwen3-TTS 1.7B, LoRA)
+**Fine-tuning**
+- LLM — Kanana-2 1.3B · Qwen3 0.6B
+- STT — Whisper large-v3-turbo (QLoRA)
+- TTS — Qwen3-TTS 1.7B (LoRA)
+
+**Deploy**
+- HF Spaces GPU 백엔드 + Streamlit 프론트 분리
+- OpenShift(Kubernetes) 환경 서비스 배포
+
+**Now**
+- AI Agent · MCP 서버 개발
+
+<br clear="left">
 
 <code>EXAONE 3.5</code> <code>faster-whisper</code> <code>Transformers</code> <code>PEFT</code> <code>bitsandbytes</code> <code>silero-vad</code> <code>sentence-transformers</code> <code>ko-sroberta</code> <code>CLIP</code> <code>Seq2Seq</code> <code>CNN</code> <code>librosa</code> <code>KoNLPy</code> <code>Langfuse</code> <code>Tavily</code> <code>MyBatis</code> <code>JPA</code>
 
