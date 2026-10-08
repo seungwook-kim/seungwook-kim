@@ -37,6 +37,7 @@ class SeungwookKim:
 <!--PROJECTS:START-->
 | Project | Description · Topics | Started |
 | :-- | :-- | :-: |
+| [**ChefEar_ai**](https://github.com/chefear-team/ChefEar_ai) | 화면을 보지 않고 음성만으로 레시피를 한 단계씩 안내하는 AI 에이전트 · Whisper STT / Qwen3-TTS 도메인 파인튜닝 · 로컬 LLM(EXAONE) · Streamlit<br><sub>`exaone` `faster-whisper` `fine-tuning` `korean` `qwen3-tts` `recipe` `sentence-transformers` `streamlit` `stt` `tts` `voice-assistant` `webrtc` `whisper`</sub> | 2026.08.31 |
 | [**transformer**](https://github.com/seungwook-kim/transformer) | Transformer 실습 모음 · 감성 분석 · Seq2Seq 번역 · CLIP 멀티모달 검색 · 이미지 캡셔닝<br><sub>`attention` `blip` `clip` `huggingface` `image-captioning` `konlpy` `model-optimization` `multimodal` `nllb` `nlp` `pytorch` `seq2seq` `streamlit` `transformer`</sub> | 2026.08.02 |
 <!--PROJECTS:END-->
 
