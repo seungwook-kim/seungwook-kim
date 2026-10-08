@@ -3,6 +3,8 @@
 import { readFile, writeFile } from 'node:fs/promises';
 
 const OWNER = process.env.GITHUB_REPOSITORY_OWNER || 'seungwook-kim';
+// Repos owned by an organization that should also be listed. Only shown while public.
+const EXTRA_REPOS = ['chefear-team/ChefEar_ai'];
 const README = new URL('../README.md', import.meta.url);
 const START = '<!--PROJECTS:START-->';
 const END = '<!--PROJECTS:END-->';
@@ -24,6 +26,17 @@ async function fetchRepos() {
   }
 }
 
+// A private or missing repo answers 404 and is skipped, so nothing private leaks into the table.
+async function fetchExtraRepos() {
+  const repos = [];
+  for (const fullName of EXTRA_REPOS) {
+    const res = await fetch(`https://api.github.com/repos/${fullName}`, { headers });
+    if (res.ok) repos.push(await res.json());
+    else console.log(`skip ${fullName} (${res.status})`);
+  }
+  return repos;
+}
+
 // Dotted dates don't wrap inside narrow table cells the way hyphenated ones do.
 const kst = (iso) => new Date(iso).toLocaleDateString('sv-SE', { timeZone: 'Asia/Seoul' }).replaceAll('-', '.');
 const cell = (s) => (s || '').replace(/\|/g, '\\|').replace(/\s+/g, ' ').trim();
@@ -43,7 +56,7 @@ function table(repos) {
   ].join('\n');
 }
 
-const repos = (await fetchRepos())
+const repos = [...(await fetchRepos()), ...(await fetchExtraRepos())]
   .filter((r) => !r.fork && !r.private && r.name.toLowerCase() !== OWNER.toLowerCase())
   .sort((a, b) => b.created_at.localeCompare(a.created_at));
 
