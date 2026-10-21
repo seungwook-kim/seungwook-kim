@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="468" viewBox="0 0 1000 468" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="524" viewBox="0 0 1000 524" role="img" aria-labelledby="title desc">
   <title id="title">Learning journey</title>
-  <desc id="desc">now AI Agent: LLM 에이전트 설계 · MCP · 멀티 에이전트; 2026.08 음성 AI: STT · TTS 파인튜닝 · LLM 의도 분류 · 벡터 검색; 2026.08 오디오 AI: 음악 장르 분류; 2026.08 Transformer: 감성 분석 · Seq2Seq 번역 · CLIP 검색 · 이미지 캡셔닝; 2026.07 딥러닝 기초: CNN 이미지 분류 · 회귀 수요 예측; 2026.07 AI Human 7기: Streamlit · Gemini API 챗봇으로 AI 전환 시작; 2020.10 Java 풀스택 실무: KT · LG · CJ · 공공 SI 프로젝트 · 4년 7개월</desc>
+  <desc id="desc">now AI Agent: LLM 에이전트 설계 · MCP · 사이드 프로젝트 운영; 2026.09 LLM 에이전트: Marvia 해상 화물 판정 · FastMCP 도구 · 프롬프트 인젝션 방어; 2026.08 음성 AI: STT · TTS 파인튜닝 · 임베딩 의도 분류 · 벡터 검색; 2026.08 오디오 AI: 음악 장르 분류; 2026.08 Transformer: 감성 분석 · Seq2Seq 번역 · CLIP 검색 · 이미지 캡셔닝; 2026.07 딥러닝 기초: CNN 이미지 분류 · 회귀 수요 예측; 2026.06 AI Human 7기: Streamlit · Gemini API 챗봇으로 AI 전환 시작; 2020.10 Java 풀스택 실무: KT · LG · CJ · 공공 SI 프로젝트 · 4년 7개월</desc>
   <style>
     .row { opacity: 0; animation: rise .45s ease-out forwards; }
     .ring { transform-box: fill-box; transform-origin: center; animation: ring 2s ease-out infinite; }
@@ -12,14 +12,14 @@
     }
   </style>
   <defs>
-    <clipPath id="card"><rect x="1" y="1" width="998" height="466" rx="14"/></clipPath>
+    <clipPath id="card"><rect x="1" y="1" width="998" height="522" rx="14"/></clipPath>
   </defs>
   <g clip-path="url(#card)">
-    <rect width="1000" height="468" fill="#0d1117"/>
+    <rect width="1000" height="524" fill="#0d1117"/>
     <rect width="1000" height="44" fill="#161b22"/>
     <path d="M0 44.5H1000" stroke="#30363d"/>
   </g>
-  <rect x="1" y="1" width="998" height="466" rx="14" fill="none" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="1" y="1" width="998" height="522" rx="14" fill="none" stroke="#30363d" stroke-width="1.5"/>
   <circle cx="26" cy="22" r="6.5" fill="#ff5f57"/>
   <circle cx="48" cy="22" r="6.5" fill="#febc2e"/>
   <circle cx="70" cy="22" r="6.5" fill="#28c840"/>
@@ -29,51 +29,58 @@
   <path d="M48 196V252" stroke="#30363d" stroke-width="2"/>
   <path d="M48 252V308" stroke="#30363d" stroke-width="2"/>
   <path d="M48 308V364" stroke="#30363d" stroke-width="2"/>
-  <path d="M48 364V420" stroke="#30363d" stroke-width="2" stroke-dasharray="4 5"/>
+  <path d="M48 364V420" stroke="#30363d" stroke-width="2"/>
+  <path d="M48 420V476" stroke="#30363d" stroke-width="2" stroke-dasharray="4 5"/>
 
   <g class="row" style="animation-delay:0.15s">
     <circle cx="48" cy="84" r="7" fill="#0d1117" stroke="#79c0ff" stroke-width="2.5"/>
     <circle cx="48" cy="84" r="7" fill="none" stroke="#79c0ff" stroke-width="2" class="ring"/>
     <text x="78" y="89" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#79c0ff">now</text>
     <text x="178" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">AI Agent</text>
-    <text x="400" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">LLM 에이전트 설계 · MCP · 멀티 에이전트</text>
+    <text x="400" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">LLM 에이전트 설계 · MCP · 사이드 프로젝트 운영</text>
     <rect x="850" y="71" width="110" height="26" rx="13" fill="none" stroke="#79c0ff"/>
     <text x="905" y="89" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#79c0ff">in progress</text>
   </g>
   <g class="row" style="animation-delay:0.27s">
     <circle cx="48" cy="140" r="7" fill="#7ee787"/>
-    <text x="78" y="145" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#e3b341">2026.08</text>
-    <text x="178" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">음성 AI</text>
-    <text x="400" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">STT · TTS 파인튜닝 · LLM 의도 분류 · 벡터 검색</text>
+    <text x="78" y="145" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#e3b341">2026.09</text>
+    <text x="178" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">LLM 에이전트</text>
+    <text x="400" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">Marvia 해상 화물 판정 · FastMCP 도구 · 프롬프트 인젝션 방어</text>
   </g>
   <g class="row" style="animation-delay:0.39s">
     <circle cx="48" cy="196" r="7" fill="#7ee787"/>
     <text x="78" y="201" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#e3b341">2026.08</text>
-    <text x="178" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">오디오 AI</text>
-    <text x="400" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">음악 장르 분류</text>
+    <text x="178" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">음성 AI</text>
+    <text x="400" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">STT · TTS 파인튜닝 · 임베딩 의도 분류 · 벡터 검색</text>
   </g>
   <g class="row" style="animation-delay:0.51s">
     <circle cx="48" cy="252" r="7" fill="#7ee787"/>
     <text x="78" y="257" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#e3b341">2026.08</text>
-    <text x="178" y="258" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">Transformer</text>
-    <text x="400" y="258" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">감성 분석 · Seq2Seq 번역 · CLIP 검색 · 이미지 캡셔닝</text>
+    <text x="178" y="258" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">오디오 AI</text>
+    <text x="400" y="258" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">음악 장르 분류</text>
   </g>
   <g class="row" style="animation-delay:0.63s">
     <circle cx="48" cy="308" r="7" fill="#7ee787"/>
-    <text x="78" y="313" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#e3b341">2026.07</text>
-    <text x="178" y="314" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">딥러닝 기초</text>
-    <text x="400" y="314" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">CNN 이미지 분류 · 회귀 수요 예측</text>
+    <text x="78" y="313" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#e3b341">2026.08</text>
+    <text x="178" y="314" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">Transformer</text>
+    <text x="400" y="314" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">감성 분석 · Seq2Seq 번역 · CLIP 검색 · 이미지 캡셔닝</text>
   </g>
   <g class="row" style="animation-delay:0.75s">
     <circle cx="48" cy="364" r="7" fill="#7ee787"/>
     <text x="78" y="369" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#e3b341">2026.07</text>
-    <text x="178" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">AI Human 7기</text>
-    <text x="400" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">Streamlit · Gemini API 챗봇으로 AI 전환 시작</text>
+    <text x="178" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">딥러닝 기초</text>
+    <text x="400" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">CNN 이미지 분류 · 회귀 수요 예측</text>
   </g>
   <g class="row" style="animation-delay:0.87s">
-    <circle cx="48" cy="420" r="6" fill="#0d1117" stroke="#8b949e" stroke-width="2"/>
-    <text x="78" y="425" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#8b949e">2020.10</text>
-    <text x="178" y="426" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#8b949e">Java 풀스택 실무</text>
-    <text x="400" y="426" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="14" fill="#8b949e">KT · LG · CJ · 공공 SI 프로젝트 · 4년 7개월</text>
+    <circle cx="48" cy="420" r="7" fill="#7ee787"/>
+    <text x="78" y="425" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#e3b341">2026.06</text>
+    <text x="178" y="426" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">AI Human 7기</text>
+    <text x="400" y="426" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">Streamlit · Gemini API 챗봇으로 AI 전환 시작</text>
+  </g>
+  <g class="row" style="animation-delay:0.99s">
+    <circle cx="48" cy="476" r="6" fill="#0d1117" stroke="#8b949e" stroke-width="2"/>
+    <text x="78" y="481" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#8b949e">2020.10</text>
+    <text x="178" y="482" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#8b949e">Java 풀스택 실무</text>
+    <text x="400" y="482" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Helvetica, Arial, sans-serif" font-size="14" fill="#8b949e">KT · LG · CJ · 공공 SI 프로젝트 · 4년 7개월</text>
   </g>
 </svg>
