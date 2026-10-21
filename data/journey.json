@@ -1,9 +1,10 @@
 [
-  { "date": "now", "title": "AI Agent", "detail": "LLM 에이전트 설계 · MCP · 멀티 에이전트", "status": "wip" },
-  { "date": "2026.08", "title": "음성 AI", "detail": "STT · TTS 파인튜닝 · LLM 의도 분류 · 벡터 검색" },
+  { "date": "now", "title": "AI Agent", "detail": "LLM 에이전트 설계 · MCP · 사이드 프로젝트 운영", "status": "wip" },
+  { "date": "2026.09", "title": "LLM 에이전트", "detail": "Marvia 해상 화물 판정 · FastMCP 도구 · 프롬프트 인젝션 방어" },
+  { "date": "2026.08", "title": "음성 AI", "detail": "STT · TTS 파인튜닝 · 임베딩 의도 분류 · 벡터 검색" },
   { "date": "2026.08", "title": "오디오 AI", "detail": "음악 장르 분류" },
   { "date": "2026.08", "title": "Transformer", "detail": "감성 분석 · Seq2Seq 번역 · CLIP 검색 · 이미지 캡셔닝" },
   { "date": "2026.07", "title": "딥러닝 기초", "detail": "CNN 이미지 분류 · 회귀 수요 예측" },
-  { "date": "2026.07", "title": "AI Human 7기", "detail": "Streamlit · Gemini API 챗봇으로 AI 전환 시작" },
+  { "date": "2026.06", "title": "AI Human 7기", "detail": "Streamlit · Gemini API 챗봇으로 AI 전환 시작" },
   { "date": "2020.10", "title": "Java 풀스택 실무", "detail": "KT · LG · CJ · 공공 SI 프로젝트 · 4년 7개월", "status": "past" }
 ]
