@@ -50,6 +50,14 @@ class SeungwookKim:
 <!--PROJECTS:START-->
 | Project | Description · Topics | Started |
 | :-- | :-- | :-: |
+| [**provena**](https://github.com/seungwook-kim/provena) | Provena: 정책·런북 인용 답변과 답변 리콜을 하는 엔지니어링 지식 AI 플랫폼 (AI Human 7기 3차 팀 프로젝트 사본, 원본 aihuman-7th/proj3-c)<br><sub>—</sub> | 2026.11.16 |
+| [**the-suspects**](https://github.com/seungwook-kim/the-suspects) | 스스로 움직이는 AI 용의자들을 심문해 범인을 찾는 추리 게임 · LangGraph·RAG 기반 자율형 멀티 에이전트<br><sub>—</sub> | 2026.10.13 |
+| [**marvia**](https://github.com/seungwook-kim/marvia) | 선박 에이전트<br><sub>—</sub> | 2026.10.07 |
+| [**sasu-handover-agent**](https://github.com/seungwook-kim/sasu-handover-agent) | 떠나는 개발자에게 무엇을 물어야 할지 코드 분석으로 먼저 찾아 주는 SI 인수인계 에이전트. 답변을 코드 위치에 연결해 두고, 신규 투입자의 "왜?"에 근거와 함께 답합니다. 사내 LLM 서버 연결 지원 · RAG · LangGraph<br><sub>—</sub> | 2026.09.27 |
+| [**fresh-stock-agent**](https://github.com/seungwook-kim/fresh-stock-agent) | AI agent for fresh produce stores, handwritten inventory sheets to daily orders. 청과 매장 수기 재고표 인식 · 재고 추적 · 발주 추천<br><sub>—</sub> | 2026.09.27 |
+| [**saju-agent**](https://github.com/seungwook-kim/saju-agent) | 사주 에이전트<br><sub>—</sub> | 2026.09.23 |
+| [**converge**](https://github.com/seungwook-kim/converge) | 약속 에이전트<br><sub>—</sub> | 2026.09.21 |
+| [**toolscout**](https://github.com/seungwook-kim/toolscout) | 매일 아침 AI 소식과 새 MCP·스킬을 내 기준으로 골라 해설하는 에이전트. MCP는 샌드박스에서 동작 검증, 스킬은 위험 신호 분석. FastAPI · MCP · n8n · Langfuse<br><sub>—</sub> | 2026.09.13 |
 | [**ChefEar_ai**](https://github.com/chefear-team/ChefEar_ai) | 화면을 보지 않고 음성만으로 레시피를 한 단계씩 안내하는 AI 에이전트 · Whisper STT / Qwen3-TTS 도메인 파인튜닝 · 로컬 LLM(EXAONE) · Streamlit<br><sub>`exaone` `faster-whisper` `fine-tuning` `korean` `qwen3-tts` `recipe` `sentence-transformers` `streamlit` `stt` `tts` `voice-assistant` `webrtc` `whisper`</sub> | 2026.08.31 |
 | [**transformer**](https://github.com/seungwook-kim/transformer) | Transformer 실습 모음 · 감성 분석 · Seq2Seq 번역 · CLIP 멀티모달 검색 · 이미지 캡셔닝<br><sub>`attention` `blip` `clip` `huggingface` `image-captioning` `konlpy` `model-optimization` `multimodal` `nllb` `nlp` `pytorch` `seq2seq` `streamlit` `transformer`</sub> | 2026.08.02 |
 <!--PROJECTS:END-->
